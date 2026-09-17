@@ -1,15 +1,4 @@
 # 🚀 CareerPath Karnataka --- AI Career Guidance Platform
-
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}Explore • Understand • Plan • Build Your
-Career`</strong>`{=html}`<br>`{=html}
-`<a href="https://career-guide-after-10-class-8sgs.vercel.app/">`{=html}🌐
-Live Website`</a>`{=html}
-```{=html}
-</p>
-```
 > A student-focused career guidance platform for exploring pathways
 > after **Class 10 / SSLC, PUC, Diploma and ITI**, with an interactive
 > course catalogue and built-in AI career assistant.
@@ -570,11 +559,32 @@ https://career-guide-after-10-class-8sgs.vercel.app/
 gnanasairamakrishna233@gmail.com
 
 ------------------------------------------------------------------------
+# 📈 GitHub Stats
 
-```{=html}
 <p align="center">
-```
-Made with ❤️ for students exploring their future.
-```{=html}
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=PRK-blogler-420&theme=tokyonight"/>
+
 </p>
-```
+
+---
+
+# 🌍 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/gnana-sai-ramakrishna-0098713bb?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://github.com/PRK-blogler-420/">
+<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="YOUR_PORTFOLIO_LINK">
+<img src="https://img.shields.io/badge/Portfolio-orange?style=for-the-badge"/>
+</a>
+
+</p>
+
+---
