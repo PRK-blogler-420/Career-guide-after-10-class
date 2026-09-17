@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CareerPath Karnataka | AI Career Guidance</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<nav class="topbar">
+<div class="brand">Career<span>Path</span></div>
+<div class="top-actions"><button class="profile-logo" onclick="openProfile()" aria-label="Open developer profile" title="Developer Profile">👤</button></div>
+</nav>
+<div class="hero-content"><div class="hero-badge">PUC • DIPLOMA • ITI • DEGREE • CAREER</div>
+<h1>Find Your<br><span>Career Path</span></h1>
+<p>Explore education and career routes in Karnataka through simple buttons and an AI career assistant.</p>
+<button class="primary" onclick="showMainPaths()">Start Exploring →</button></div>
+</header>
+<main>
+<section id="mainPaths" class="panel hidden"><p class="eyebrow">CHOOSE YOUR PATH</p><div class="row">
+<button class="path science" onclick="showPUC('Science')">🔬 Science</button>
+<button class="path commerce" onclick="showPUC('Commerce')">📊 Commerce</button>
+<button class="path arts" onclick="showPUC('Arts')">🎨 Arts</button>
+<button class="path diploma" onclick="showMainCategory('Diploma')">🛠️ Diploma</button>
+<button class="path iti" onclick="showMainCategory('ITI')">⚙️ ITI</button>
+<button class="path defence" onclick="showMainCategory('Defence & Government')">🇮🇳 Defence & Govt.</button>
+</div></section>
+<section id="subPanel" class="panel hidden"><p id="subLabel" class="eyebrow"></p><div id="subButtons" class="row"></div></section>
+<section id="degreePanel" class="panel hidden"><p id="degreeLabel" class="eyebrow"></p><div id="degreeButtons" class="row"></div></section>
+<section id="coursePanel" class="panel hidden"><p id="courseLabel" class="eyebrow"></p><div id="courseButtons" class="row"></div></section>
+<div class="research-note"><b>Research note:</b> Course names, approvals, seat matrices and college availability can change by academic year. Verify the latest official source before applying.</div>
+</main>
+
+<button id="chatLauncher" onclick="toggleChat()">🤖</button>
+<div id="chatBox" class="chat hidden">
+<div class="chat-head"><div><b>🤖 CareerPath AI</b><small>Ask about your career</small></div><button onclick="toggleChat()">×</button></div>
+<div id="chatMessages" class="messages"><div class="message bot"><div class="bubble">Hi! 👋 Ask me about PUC, BE/BTech, Commerce, Arts, Diploma, ITI, Defence careers, skills, future scope or Karnataka colleges.</div></div></div>
+<div class="quick"><button onclick="quickAsk('Show all BTech courses')">BTech</button><button onclick="quickAsk('What can I do after PCMB?')">PCMB</button><button onclick="quickAsk('Tell me about ITI')">ITI</button><button onclick="quickAsk('Tell me about Indian Army')">Army</button></div>
+<div class="chat-input"><input id="chatInput" placeholder="Ask your question..." onkeydown="enterSend(event)"><button onclick="sendMessage()">➤</button></div>
+</div>
+
+<div id="profileModal" class="profile-drawer hidden">
+<div class="profile-backdrop" onclick="closeProfile()"></div>
+<aside class="profile-side">
+<button class="close profile-close" onclick="closeProfile()">×</button>
+<div class="profile-heading">
+<div class="profile-logo-big">👥</div>
+<p class="eyebrow">CAREERPATH KARNATAKA</p>
+<h2>Website Development Team</h2>
+<p>Meet the three members who designed and developed this career guidance platform.</p>
+</div>
+
+<div class="member-list">
+<article class="member">
+<div class="member-top"><div class="member-avatar">G</div><div><h3>Gnana Sai RK</h3><b>.</b></div></div>
+<p><strong>Course / Study:</strong> Engineering Student</p>
+<p><strong>.</p>
+
+<a href="#" onclick="return false">LinkedIn Profile → Add your LinkedIn link</a>
+</article>
+
+<article class="member">
+<div class="member-top"><div class="member-avatar">2</div><div><h3>Dhanaraj</h3><b>.</b></div></div>
+<p><strong>Course / Study:</strong> engineer AI&DS branch</p>
+
+<a href="#" onclick="return false">LinkedIn Profile → Add LinkedIn link</a>
+</article>
+
+<article class="member">
+<div class="member-top"><div class="member-avatar">3</div><div><h3>Chinmayi</h3></div></div>
+<p><strong>Course / Study:</strong> engineering AI DS branch</p>
+<p></p>
+
+<a href="#" onclick="return false">LinkedIn Profile → Add LinkedIn link</a>
+</article>
+</div>
+
+<div class="contact-section">
+<p class="eyebrow">CONTACT FOR CAREER DEVELOPMENT</p>
+<h3>Have an idea or want to collaborate?</h3>
+<p>Use the contact options below. Replace the placeholders with the final team contact details.</p>
+<div class="contact-buttons">
+<a class="contact whatsapp" href="https://wa.me/9480090065" target="_blank" rel="noopener">💬 WhatsApp</a>
+<a class="contact email" href="mailto: gnanasairamakrishna233@gmail.com">✉️ Email</a>
+<a class="contact phone" href="tel:+919480090065">☎️ Phone</a>
+</div>
+<small>WhatsApp, phone and email are placeholders until the final contact details are added.</small>
+</div>
+</aside>
+</div>
+
+<div id="detailModal" class="modal hidden"><div class="backdrop" onclick="closeDetail()"></div><div class="detail-card"><button class="close" onclick="closeDetail()">×</button><div id="detailContent"></div></div></div>
+
+<footer>© 2026 CareerPath Karnataka 
+<div class="sources"><a href="https://vtu.ac.in/be-btech/" target="_blank">VTU B.E/B.Tech</a><a href="https://vtu.ac.in/undergraduate/" target="_blank">VTU UG</a><a href="https://dtek.karnataka.gov.in/" target="_blank">Karnataka DTE</a><a href="https://dgt.gov.in/en/CTS" target="_blank">DGT CTS/ITI</a><a href="https://cetonline.karnataka.gov.in/kea/" target="_blank">KEA</a></div></footer>
+<script src="script.js"></script>
+</body></html>
